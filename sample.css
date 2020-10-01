@@ -1,0 +1,315 @@
+/* Start Table of Contents */
+/*
+00. Library override(ex. bootstrap etc) --------------------
+01. Text and Typography ------------------------------------
+02. Common element(ul,ol,li,body,div etc.) -----------------
+03. Common class(padding, margin etc.) ---------------------
+04. Header styles ------------------------------------------
+05. Footer styles-------------------------------------------
+06. Common content------------------------------------------
+07. Pages and Posts-----------------------------------------
+08. Extra styles--------------------------------------------
+09. Media Query---------------------------------------------
+*/
+/* End Table of Contents */
+/* 00. Library override(ex. bootstrap etc) start*/
+
+/* 00. Library override(ex. bootstrap etc)   end*/
+/* 01. Text and Typography start */
+
+h1, h2, h3, h4, h5, h6, .entry-title {
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	font-weight: 400
+}
+a {
+	text-decoration: none
+}
+a:hover, a:active, a:focus, input:focus, input:hover, button:focus, .btn:focus, button:hover, .btn:hover, button:active, .btn:active, button:active:focus, .btn:active:focus {
+	text-decoration: none;
+	outline: none
+}
+/* 01. Text and Typography end */
+/* 02. Common element(ul,ol,li,body,div etc.) start*/
+body:not(.custom-background-image)::before, body:not(.custom-background-image)::after {
+	height: 0;
+	display: none
+}
+body {
+	font-size: 16px;
+	color: #000;
+	background: #fff;
+	line-height: normal;
+	font-family: 'Source Sans Pro', sans-serif;
+	overflow-x: hidden;
+	font-weight: 400;
+}
+ol, ul {
+	padding: 0
+}
+/* 02. Common element(ul,ol,li,body,div etc.) end*/
+/*03. Common class(padding, margin etc.) start*/
+.pos-relative {
+	position: relative
+}
+.m0 {
+	margin: 0;
+}
+.mt5 {
+	margin-top: 5px;
+}
+.mt10 {
+	margin-top: 10px;
+}
+.mt15 {
+	margin-top: 15px;
+}
+.mt20 {
+	margin-top: 20px;
+}
+.mt25 {
+	margin-top: 25px;
+}
+.mt30 {
+	margin-top: 30px;
+}
+.mt40 {
+	margin-top: 40px;
+}
+.mt50 {
+	margin-top: 50px;
+}
+.p0 {
+	padding: 0;
+}
+.p5 {
+	padding: 5px;
+}
+.p10 {
+	padding: 10px;
+}
+.p15 {
+	padding: 15px;
+}
+.p20 {
+	padding: 20px;
+}
+.p30 {
+	padding: 30px;
+}
+.pt0 {
+	padding-top: 0;
+}
+.pb0 {
+	padding-bottom: 0;
+}
+.ptb15 {
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+.plr15 {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.box-border {
+	border: 1px solid #ddd;
+}
+.border-bottom {
+	border-bottom: 1px solid #ddd;
+}
+.border-top {
+	border-top: 1px solid #ddd;
+}
+.grey-bg {
+	background-color: #f2f2f2;
+}
+.white-bg {
+	background-color: #fff;
+}
+.grey {
+	color: #9A9A9A;
+}
+.black {
+	color: #000;
+}
+.radius0 {
+	border-radius: 0px;
+}
+.radius5 {
+	border-radius: 5px;
+}
+.radius10 {
+	border-radius: 10px;
+}
+.box-shadow {
+	box-shadow: 0 0 3px #dadada;
+}
+
+.full-size {
+	width: 100%;
+}
+/*Font Size*/
+.font50 {
+	font-size: 50px;
+}
+.font45 {
+	font-size: 45px;
+}
+.font40 {
+	font-size: 40px;
+}
+.font36 {
+	font-size: 36px;
+}
+.font30 {
+	font-size: 30px;
+}
+.font26 {
+	font-size: 26px;
+}
+.font22 {
+	font-size: 22px;
+}
+.font20 {
+	font-size: 20px;
+}
+.font18 {
+	font-size: 18px;
+}
+.font16 {
+	font-size: 16px;
+}
+.font12 {
+	font-size: 12px;
+}
+
+#back-top {	position: fixed;	bottom: 30px;	right:30px;}
+/*03. Common class(padding, margin etc.) end*/
+/*04. Header styles start*/
+.site-branding img {
+	height: auto;
+	width: auto;
+	max-width: inherit;
+	margin-bottom: 20px;
+}
+.site {
+	margin: 0;
+	background: #fff
+}
+.site-branding, .site-header-menu, .header-image, .site-main {
+	margin: 0
+}
+.site-header {
+	padding: 0
+}
+.site-branding {
+	float: left
+}
+/*04. Header styles end*/
+/*05. Footer styles start*/
+.site-footer{
+	padding: 0
+}
+/*05. Footer styles end*/
+/*06. Common content start*/
+.site-content {
+	padding: 0
+}
+/*06. Common content end*/
+
+/*07. Pages and Posts satrt*/
+/*Homepage satrt*/
+
+/*Homepage end	*/
+/*07. Pages and Posts end*/
+
+/* 08. Extra styles start*/
+/* 08. Extra styles end*/
+
+/*09. Media Query start*/
+@media screen and (min-width: 992px) {
+
+}
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (max-width: 1199px) {
+
+}
+/*Tablet*/
+@media screen and (max-width: 991px) {
+	.font50 {
+		font-size: 40px;
+	}
+	.font45 {
+		font-size: 35px;
+	}
+	.font40 {
+		font-size: 30px;
+	}
+	.font36 {
+		font-size: 26px;
+	}
+	.font30 {
+		font-size: 25px;
+	}
+	.font26 {
+		font-size: 22px;
+	}
+	.font22 {
+		font-size: 20px;
+	}
+	.font20 {
+		font-size: 18px;
+	}
+}
+/*Small Device*/
+@media screen and (max-width: 767px) {
+
+}
+/*Mobile Device*/
+@media screen and (max-width: 640px) {
+	.font50 {
+		font-size: 30px;
+	}
+	.font45 {
+		font-size: 25px;
+	}
+	.font40 {
+		font-size: 22px;
+	}
+	.font36 {
+		font-size: 20px;
+	}
+	.font30,
+	.font26 {
+		font-size: 18px;
+	}
+	.font22,
+	.font20 {
+		font-size: 16px;
+	}
+}
+/*Extra Small Mobile Device*/
+@media screen and (max-width: 480px) {
+	.font50 {
+		font-size: 22px;
+	}
+	.font45 {
+		font-size: 20px;
+	}
+	.font40,
+	.font36 {
+		font-size: 18px;
+	}
+	.font30,
+	.font26 {
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 420px) {
+
+}
+/*09. Media Query end*/
