@@ -11,6 +11,29 @@
 09. Media Query---------------------------------------------
 */
 /* End Table of Contents */
+
+/* Root variables define here */
+:root {
+	--font-family-primary: 'sans-serif';
+	--font-family-secondary: 'sans-serif';
+	--font-family-heading: 'sans-serif';
+	--color-primary: #0d6efd;
+	--color-secondary: #6c757d;
+	--color-accent: #fd7e14;
+	--text-light: #f8f9fa;
+	--text-white: #ffffff;
+	--text-dark: #212529;
+	--bg-color-primary: #0d6efd;
+	--bg-color-secondary: #6c757d;
+	--border: 1px solid;
+	--border-color-light: #f8f9fa;
+	--border-color-dark: #212529;
+	--border-radius: 10px 10px 10px 10px;
+	--box-shadow: 1px 1px 10px 1px rgba(159, 159, 159, .3);
+	--hover-box-shadow: 1px 10px 20px 1px rgba(159, 159, 159, .5);
+}
+/* Root variables define here */
+
 /* 00. Library override(ex. bootstrap etc) start*/
 
 /* 00. Library override(ex. bootstrap etc)   end*/
