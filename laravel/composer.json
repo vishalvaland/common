@@ -1,1 +1,23 @@
+ 
+ "require": {
+        "ext-bcmath": "*",
+        "ext-ctype": "*",
+        "ext-fileinfo": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-openssl": "*",
+        "ext-pdo": "*",
+        "ext-tokenizer": "*",
+        "ext-xml": "*",
+        "ext-xmlwriter": "*", 
+        "ext-curl": "*",
+        "ext-gd": "*",
+        "ext-gmp": "*",
+        "ext-zip": "*",
+        "ext-exif": "*",
+        "ext-dom": "*"
+        "ext-intl": "*",
+        "ext-session": "*",
 
+
+ }
